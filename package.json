@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-file-type-enabler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Enable and manage additional file extensions in the Obsidian file explorer.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node esbuild.config.mjs production"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.7",
+    "fflate": "0.8.2",
+    "obsidian": "1.10.3",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-file-type-enabler",
+  "name": "File Type Enabler",
+  "version": "0.1.0",
+  "minAppVersion": "1.10.6",
+  "description": "Enable and manage additional file extensions in the Obsidian file explorer.",
+  "author": "File Type Enabler contributors",
+  "isDesktopOnly": true
+}
